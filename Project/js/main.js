@@ -30,5 +30,18 @@
 	};
 	burgerMenu();
 
+	$(window).resize(function () {
+		$('.fixx').css('height', $(window).height() * 0.75);
+	});
+	$(function(){ $(window).resize() });
+
+	
+
+
+
 
 })(jQuery);
+
+
+
+
